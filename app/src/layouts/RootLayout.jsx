@@ -1,8 +1,12 @@
 import React from 'react'
-
+import { Outlet } from 'react-router-dom'
+import Search from '../components/Search'
 const RootLayout = () => {
   return (
-    <div>RootLayout</div>
+   <>
+   <Search/>
+   <Outlet/>
+   </>
   )
 }
 
