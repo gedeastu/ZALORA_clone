@@ -19,11 +19,21 @@
       "id": 4,
       "title": "Sports",
       "url":"/sports"
-    }
+    },
     {
       "id": 5,
       "title": "Beauty",
       "url":"/beauty"
+    },
+    {
+      "id": 6,
+      "title": "Anak",
+      "url":"/anak"
+    },
+    {
+      "id": 7,
+      "title": "Lifestyle",
+      "url":"/homelifestyle"
     }
   ]
 }
