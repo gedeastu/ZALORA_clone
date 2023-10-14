@@ -5,7 +5,7 @@ import Search from '../components/Search'
 const MainLayout = () => {
   return (
     <>
-    <header>
+    <header className='w-screen flex flex-col items-center'>
     <Navbar/>
     </header>
     <main>
