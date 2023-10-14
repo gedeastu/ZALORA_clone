@@ -35,5 +35,49 @@
       "title": "Lifestyle",
       "url":"/homelifestyle"
     }
+  ],
+  "promo":[
+    {
+      "id":1,
+      "url":"/erha",
+      "title": "Up to 60% + Voucher Up to 50K",
+      "image":"./erha.png"
+    },
+    {
+      "id":2,
+      "url":"/dios",
+      "title":"Up to 30%",
+      "image":"./dios.png"
+    },
+    {
+      "id":3,
+      "url":"/calvinHein",
+      "title": "Up to 60%",
+      "image":"./calvinHein.png"
+    },
+    {
+      "id":4,
+      "url":"/skinfood",
+      "title":"Up to 45% + Voucher 10%",
+      "image":"./skinfood.png"
+    },
+    {
+      "id":5,
+      "url":"/erha",
+      "title":"Skincare Finder",
+      "image":"./erha.png"
+    },
+    {
+      "id":6,
+      "url":"/skincare",
+      "title":"Skincare Finder",
+      "image":"./skincare.png"
+    },
+    {
+      "id":7,
+      "url":"/skincare",
+      "title":"Skincare Finder",
+      "image":"./skincare.png"
+    }
   ]
 }

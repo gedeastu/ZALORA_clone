@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Search = () => {
   return (
     <>
-    <div className='flex flex-row gap-5 bg-white w-screen shadow-md items-center justify-between px-5 py-5'>
+    <div className='w-screen flex flex-row gap-5 bg-white shadow-md items-center justify-between px-5 py-5'>
     <Link to={'/'}>
     <img src={`logoZalora.png`} alt="" className='w-36'/>
     </Link>
