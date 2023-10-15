@@ -2,6 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from '../components/navbar'
 import Promo from '../components/Promo'
+import Banner from '../components/Banner'
 const MainLayout = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const MainLayout = () => {
     <Navbar/>
     <Promo/>
     </nav>
+    <Banner />
     </header>
     <main>
     <Outlet/>

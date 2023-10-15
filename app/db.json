@@ -79,5 +79,15 @@
       "title":"Skincare Finder",
       "image":"./skincare.png"
     }
+  ],
+  "banner":[
+    {
+      "id":1,
+      "img":"banner1.jpeg"
+    },
+    {
+      "id":2,
+      "img":"banner2.gif"
+    }
   ]
 }
