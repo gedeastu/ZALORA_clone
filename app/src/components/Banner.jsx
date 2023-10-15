@@ -11,19 +11,11 @@ const Banner = () => {
     slidesPerView={1}
     spaceBetween={10}
     freeMode={true}
-    navigation={{
-        clickable: true,
-        prevEl: '.swiper-button-prev',
-        nextEl: '.swiper-button-next',
-    }}
     autoplay={{
         delay: 2500,
         disableOnInteraction: false,
     }}
     loop={true}
-    // pagination = {{
-    //     clickable: true,
-    // }}
     modules={
         [FreeMode,Navigation,Autoplay]
     }

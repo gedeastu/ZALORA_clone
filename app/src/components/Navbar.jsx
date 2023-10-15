@@ -1,12 +1,11 @@
 import React from 'react'
 import './Navbar.css'
-import { useState } from 'react';
 import { NavLink } from 'react-router-dom'
 import { LinkData } from '../services/LinkData'
 import {Swiper,SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import {FreeMode, Pagination,Navigation} from 'swiper/modules'
+import {FreeMode,Navigation} from 'swiper/modules'
 const Navbar = () => {
   const {isLoading, isError, data, error, isFetching, refetch} = LinkData();
 
