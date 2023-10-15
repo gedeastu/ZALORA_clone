@@ -7,3 +7,9 @@
     fill: rgb(0 0 0 / 0.2);
     background-color: ;
 } */
+.swiper-button-disabled{
+    position: absolute;
+    /* left: -2rem; */
+    display: none;
+    transition: all;
+}

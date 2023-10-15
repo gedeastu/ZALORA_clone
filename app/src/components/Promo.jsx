@@ -32,7 +32,7 @@ const Promo = () => {
     //   clickable: true,
     // }}
     // modules={[Pagination]}
-    className='w-[32rem] my-3'
+    className='w-[32rem] my-2 transition-all'
     >
         {data?.map((promo)=>{
             return(
@@ -42,11 +42,11 @@ const Promo = () => {
                     <h1 className='text-center' 
                     ref={ref} 
                     style={isOpen ? null : paragraphStyles}>{promo.title}</h1>
-                    {showReadMoreButton && (
+                    {showReadMoreButton ? (
                         <button onClick={handleClick} className='transition-all font-semibold text-[0.80rem] duration-200 w-max'>{
                             isOpen ? 'read less...' : 'read more...'
                         }</button>
-                    )}
+                    ) : null}
                     </div>
                 </SwiperSlide>
             )
