@@ -20,6 +20,7 @@ const Banner = () => {
         delay: 2500,
         disableOnInteraction: false,
     }}
+    loop={true}
     // pagination = {{
     //     clickable: true,
     // }}
@@ -32,7 +33,7 @@ const Banner = () => {
         data?.map((banner)=>{
             return(
                 <SwiperSlide key={banner.id} className='flex flex-row bg-gray-100 overflow-hidden rounded-lg items-center justify-center'>
-                <img src={banner.img} alt=""  className='w-max h-72 object-cover'/>
+                <img src={banner.img} alt=""  className='w-max h-72 object-fill'/>
                 </SwiperSlide>
             )
         })
