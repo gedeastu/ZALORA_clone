@@ -89,5 +89,37 @@
       "id":2,
       "img":"banner2.gif"
     }
+  ],
+  "navLink":[
+    {
+      "id": 1,
+      "url": "/",
+      "desc": "Home",
+      "icon": ""
+    },
+    {
+      "id": 2,
+      "url": "/",
+      "desc": "Kategori",
+      "icon": ""
+    },
+    {
+      "id": 3,
+      "url": "/",
+      "desc": "Tas",
+      "icon": ""
+    },
+    {
+      "id": 4,
+      "url": "/",
+      "desc": "Wishlist",
+      "icon": ""
+    },
+    {
+      "id": 1,
+      "url": "/",
+      "desc": "Akun Saya",
+      "icon": ""
+    }
   ]
 }
