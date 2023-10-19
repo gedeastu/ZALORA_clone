@@ -42,7 +42,9 @@ const Navbar = () => {
             return(
                 <SwiperSlide key={link.id} className='flex flex-row h-full bg-gray-100 w-full overflow-hidden rounded-lg items-center justify-center'>
                 <NavLink to={link.url} className='text-center h-full flex flex-row justify-center items-center'>
+                <div className='navBar w-full h-full flex flex-row justify-center items-center'>
                 {link.title}
+                </div>
                 </NavLink>
                 </SwiperSlide>
             )

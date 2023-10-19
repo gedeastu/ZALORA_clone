@@ -95,31 +95,31 @@
       "id": 1,
       "url": "/",
       "desc": "Home",
-      "icon": ""
+      "icon": "z-solid.svg"
     },
     {
       "id": 2,
-      "url": "/",
+      "url": "/Kategori",
       "desc": "Kategori",
-      "icon": ""
+      "icon": "list-solid.svg"
     },
     {
       "id": 3,
-      "url": "/",
+      "url": "/Tas",
       "desc": "Tas",
-      "icon": ""
+      "icon": "bag-shopping-solid.svg"
     },
     {
       "id": 4,
-      "url": "/",
+      "url": "/Wishlist",
       "desc": "Wishlist",
-      "icon": ""
+      "icon": "heart-solid.svg"
     },
     {
       "id": 5,
-      "url": "/",
+      "url": "/AkunSaya",
       "desc": "Akun Saya",
-      "icon": ""
+      "icon": "user-solid.svg"
     }
   ]
 }

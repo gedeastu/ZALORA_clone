@@ -1,0 +1,9 @@
+.active .navLink{
+    /* background-color: black; */
+    background-color: white;
+    color: black ; 
+    font-weight: 600;
+ }
+ nav{
+    box-shadow: 0px -3px 15px -3px rgba(0,0,0,0.1);
+ }
