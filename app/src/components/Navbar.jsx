@@ -35,7 +35,7 @@ const Navbar = () => {
         [//Pagination,
         FreeMode,Navigation]
     }
-    className='w-[31rem] h-[3rem] rounded-lg transition-all relative flex flex-row justify-center items-center md:w-[99vw]'
+    className='w-[31rem] h-[3rem] rounded-lg mt-5 transition-all relative flex flex-row justify-center items-center md:w-[99vw]'
     >
     {
         data?.map((link)=>{
@@ -51,7 +51,7 @@ const Navbar = () => {
         })
     }
     </Swiper>
-    <div className='w-full transition-all absolute flex flex-row top-0 justify-between items-center h-[3rem] z-50'>
+    <div className='w-full transition-all absolute flex flex-row top-5 justify-between items-center h-[3rem] z-50'>
     <button className={`swiper-button-prev bg-gradient-to-r from-black/50 to-transparent w-10 h-full py-1 absolute left-0 flex flex-row justify-center items-center rounded-lg`}>
     <svg xmlns="http://www.w3.org/2000/svg" className={`fill-black`} height="1.5em" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
     </button>
