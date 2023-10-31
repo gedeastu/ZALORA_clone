@@ -11,7 +11,7 @@ const Navfloat = () => {
         <NavLink className='navLink' to={item.url} key={item.id}>
           <div className='navLink flex flex-col justify-center items-center gap-1.5'>
           <img src={item.icon} alt=""  className='h-5'/>
-          <h1 className='text-[0.880rem]'>{item.desc}</h1>
+          <h1 className='text-[0.880rem] pb-1'>{item.desc}</h1>
           </div>
         </NavLink>
       )

@@ -21,6 +21,12 @@ const router = createBrowserRouter(
       <Route path='/' element={<MainLayout/>}>
 
       </Route>
+      <Route path='/Kategori' element={<MainLayout/>}>
+
+      </Route>
+      <Route path='/Tas' element={<MainLayout/>}>
+
+      </Route>
     </Route>
   )
 )
@@ -31,7 +37,7 @@ const App = () => {
     <Suspense fallback={<div>Loading...</div>}>
       <RouterProvider router={router}/>
     </Suspense>
-    <ReactQueryDevtools initialIsOpen={false} />
+    {/* <ReactQueryDevtools initialIsOpen={false} /> */}
     </QueryClientProvider>
     </>
   )
