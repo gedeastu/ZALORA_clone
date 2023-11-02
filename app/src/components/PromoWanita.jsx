@@ -34,7 +34,7 @@ const Promo = () => {
     //   clickable: true,
     // }}
     // modules={[Pagination]}
-    className='w-[31rem] my-2 transition-all'
+    className='w-[29rem] my-2 transition-all'
     >
         {data?.map((promo)=>{
             return(

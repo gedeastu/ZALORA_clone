@@ -8,14 +8,14 @@ const MainLayout = () => {
   const location = useLocation();
   return (
     <>
-    <header className='w-screen flex flex-col items-center'>
-    <nav className='my-5 h-[9.5rem] relative'>
+    <header className='w-screen flex flex-col items-center px-4'>
+    <nav className='my-5 h-[9.5rem] relative px-4'>
     <Navbar/>
     {location.pathname === '/' ? <PromoWanita/> : null}
     </nav>
     {location.pathname === '/' ? <BannerWanita/> : null}
     </header>
-    <main>
+    <main className='px-4'>
     <Outlet/>
     </main>
     </>

@@ -19,13 +19,13 @@ const Banner = () => {
     modules={
         [FreeMode,Navigation,Autoplay]
     }
-    className='w-[31rem] mt-10 h-full transition-all relative flex flex-row justify-center items-center'
+    className='w-full mt-10 h-full overflow-hidden rounded-lg transition-all relative flex flex-row justify-center items-center'
     >
     {
         data?.map((banner)=>{
             return(
                 <SwiperSlide key={banner.id} className='flex flex-row bg-gray-100 overflow-hidden rounded-lg items-center justify-center'>
-                <img src={banner.img} alt=""  className='w-max h-72 object-fill'/>
+                <img src={banner.img} alt=""  className='w-max h-72 object-cover rounded-lg'/>
                 </SwiperSlide>
             )
         })
