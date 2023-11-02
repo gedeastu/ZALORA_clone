@@ -14,12 +14,13 @@ const queryClient = new QueryClient()
 
 const RootLayout = lazy(()=>import('./layouts/RootLayout'));
 const MainLayout = lazy(()=>import('./layouts/MainLayout'));
-
+const WanitaPage = lazy(()=>import('./pages/WanitaPage'))
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<RootLayout/>}>
       <Route path='/' element={<MainLayout/>}>
-
+        <Route path='/' element={<WanitaPage/>}/>
+        <Route path='/pria' element={<WanitaPage/>}/>
       </Route>
       <Route path='/Kategori' element={<MainLayout/>}>
 

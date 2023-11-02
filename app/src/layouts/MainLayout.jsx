@@ -9,16 +9,9 @@ const MainLayout = () => {
     <header className='w-screen flex flex-col items-center'>
     <nav className='my-5 h-[9.5rem] relative'>
     <Navbar/>
-    <Promo/>
     </nav>
-    <Banner />
     </header>
-    <main>
     <Outlet/>
-    </main>
-    <footer>
-
-    </footer>
     </>
   )
 }
