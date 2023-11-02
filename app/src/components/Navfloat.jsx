@@ -5,7 +5,7 @@ import { navLink } from '../services/NavLink';
 const Navfloat = () => {
   const {isLoading, isError, data, error, isFetching, refetch} = navLink();
   return (
-    <nav className='flex flex-row justify-center items-center gap-x-12 fixed w-screen bottom-0 h-20 bg-white '>
+    <nav className='flex flex-row justify-center items-center gap-x-12 fixed z-50 w-screen bottom-0 h-20 bg-white '>
     {data?.map((item)=>{
       return(
         <NavLink className='navLink' to={item.url} key={item.id}>

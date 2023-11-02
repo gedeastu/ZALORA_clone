@@ -15,7 +15,7 @@ const MainLayout = () => {
     </nav>
     {location.pathname === '/' ? <BannerWanita/> : null}
     </header>
-    <main className='px-4'>
+    <main className=''>
     <Outlet/>
     </main>
     </>
