@@ -1,5 +1,6 @@
 import React, { useEffect,useRef,useState } from 'react'
 import {Swiper,SwiperSlide} from 'swiper/react';
+import { useLocation } from 'react-router-dom';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { PromoData } from '../services/PromoData';
@@ -22,6 +23,7 @@ const Promo = () => {
   const handleClick = () => {
     setIsOpen(prevstate => !prevstate);
   }
+  const location = useLocation();
   const {isLoading, isError, data, error, isFetching, refetch} = PromoData();
   return (
     <>
