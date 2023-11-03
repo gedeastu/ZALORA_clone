@@ -9,7 +9,7 @@ const MainLayout = () => {
   return (
     <>
     <header className='w-screen flex flex-col items-center px-4'>
-    <nav className='my-5 h-[9.5rem] relative px-4'>
+    <nav className='my-5 h-[9.5rem] relative'>
     <Navbar/>
     {location.pathname === '/' ? <PromoWanita/> : null}
     </nav>
