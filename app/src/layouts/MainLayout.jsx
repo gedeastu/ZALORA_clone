@@ -1,6 +1,8 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
+import { stickyScroll } from '../features/NavbarSticky'
+import { useSelector,useDispatch } from 'react-redux'
 import Navbar from '../components/navbar'
 import PromoWanita from '../components/PromoWanita'
 import BannerWanita from '../components/BannerWanita'
