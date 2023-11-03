@@ -1,16 +1,14 @@
 import {createSlice} from '@reduxjs/toolkit'
 
 const initialState = {
-    'height':100,
+    'heightCondition':false,
 }
 const scrollScreen = createSlice({
     name: 'stickyScroll',
     initialState,
     reducers:{
-        stickyScroll: (state) => {
-            state.height = window.screenY
-            console.log(state.height)
-            window.addEventListener('scroll',state.height)
+        stickyScroll: (state,action) => {
+            state.heightCondition = action.payload.heightCondition
         },
     },
 })
