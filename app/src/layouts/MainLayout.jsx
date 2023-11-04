@@ -1,23 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Outlet } from 'react-router-dom'
-import { useLocation } from 'react-router-dom'
-import { stickyScroll } from '../features/NavbarSticky'
-import { useSelector,useDispatch } from 'react-redux'
 import Navbar from '../components/navbar'
 import PromoWanita from '../components/PromoWanita'
 import BannerWanita from '../components/BannerWanita'
 const MainLayout = () => {
-  const location = useLocation();
+  const[sticky,setSticky] = useState(false)
   return (
     <>
-    <header className='w-screen flex sticky flex-col items-center px-4'>
-    <nav className='my-5 h-[9.5rem] relative'>
+    <header className={`w-screen flex  flex-col items-center px-4`}>
+    {/* <button onClick={()=>dispatch(toSticky())}>{condition ? 'true':'false'}</button> */}
+    <nav id='navbar' className={`${condition ? `fixed` : `sticky`} my-5 h-[9.5rem] relative`}>
     <Navbar/>
     {location.pathname === '/' ? <PromoWanita/> : null}
     </nav>
     {location.pathname === '/' ? <BannerWanita/> : null}
     </header>
-    <main className='mb-24'>
+    <main className='mb-96'>
     <Outlet/>
     </main>
     </>

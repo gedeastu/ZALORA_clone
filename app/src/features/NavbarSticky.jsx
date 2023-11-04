@@ -1,16 +1,20 @@
 import {createSlice} from '@reduxjs/toolkit'
 
 const initialState = {
-    'heightCondition':false,
+    conditionSticky: false,
+    scrollPosition: 0
 }
-const scrollScreen = createSlice({
-    name: 'stickyScroll',
+export const conditionSlice = createSlice({
+    name: 'condition',
     initialState,
-    reducers:{
-        stickyScroll: (state,action) => {
-            state.heightCondition = action.payload.heightCondition
+    reducers: {
+        toSticky : (state,action) => {
+            state.conditionSticky = !state.conditionSticky
         },
+        toValue : (state,action)=>{
+            state.scrollPosition = action.payload.scrollPosition
+        }
     },
 })
-export const {stickyScroll} = scrollScreen.actions;
-export default scrollScreen.reducer;
+export const { toSticky, toValue } = conditionSlice.actions
+export default conditionSlice.reducer
