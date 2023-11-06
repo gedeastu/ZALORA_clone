@@ -6,9 +6,13 @@ import Navbar from '../components/navbar'
 const RootLayout = () => {
   return (
    <>
+   <header className=''>
    <Search/>
    <Navbar/>
+   </header>
+   <main>
    <Outlet/>
+   </main>
    <Navfloat/>
    </>
   )

@@ -34,11 +34,11 @@ const Promo = () => {
     //   clickable: true,
     // }}
     // modules={[Pagination]}
-    className='w-[29rem] mt-3 transition-all'
+    className='w-full mt-3 transition-all bg-transparent'
     >
         {data?.map((promo)=>{
             return(
-                <SwiperSlide key={promo.id} className='flex flex-row'>
+                <SwiperSlide key={promo.id} className='flex flex-row bg-transparent'>
                     <div className='scale-90'>
                     <img src={promo.image} alt="" />
                     <h1 className='text-center' 

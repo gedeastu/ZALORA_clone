@@ -19,7 +19,7 @@ const Banner = () => {
     modules={
         [FreeMode,Navigation,Autoplay]
     }
-    className='w-full mt-10 h-full overflow-hidden rounded-lg transition-all relative flex flex-row justify-center items-center'
+    className='w-[98%] h-full overflow-hidden rounded-lg transition-all relative flex flex-row justify-center items-center'
     >
     {
         data?.map((banner)=>{

@@ -18,7 +18,7 @@ const Navbar = () => {
   // };
   return (
     <>
-    <div className='w-[31rem] h-[3rem] relative px-4'>
+    <div className='w-[31rem] h-[3rem] px-3.5 relative'>
         <Swiper
         slidesPerView={6}
         spaceBetween={10}

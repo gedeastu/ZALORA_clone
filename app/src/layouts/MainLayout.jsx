@@ -19,17 +19,16 @@ const MainLayout = () => {
   window,addEventListener('scroll',scrollCondition);
   return (
     <>
-    <header className={`w-screen flex  flex-col items-center px-4`}>
-    <h1>{value}</h1>
+    <div className='mb-96'>
+    <div className={`w-screen flex  flex-col items-center`}>
     {/* <button onClick={()=>dispatch(toSticky())}>{condition ? 'true':'false'}</button> */}
-    <nav id='navbar' className={`${condition ? `fixed` : `sticky`} my-5 h-[9.5rem] relative`}>
+    <nav id='navbar' className={`${condition ? `fixed` : `sticky`} h-[9.5rem] relative w-full`}>
     {location.pathname === '/' ? <PromoWanita/> : null}
     </nav>
     {location.pathname === '/' ? <BannerWanita/> : null}
-    </header>
-    <main className='mb-96'>
+    </div>
     <Outlet/>
-    </main>
+    </div>
     </>
   )
 }

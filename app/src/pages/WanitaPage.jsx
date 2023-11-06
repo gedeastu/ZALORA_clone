@@ -4,7 +4,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 const WanitaPage = () => {
   return (
    <>
-   <div className='transition-all h-full mt-10 px-4 flex flex-col gap-2'>
+   <div className='transition-all h-full px-4 flex flex-col gap-2'>
    <div id="desc" className='flex flex-col gap-1'>
    <h1 className='text-lg font-semibold w-[90%]'>Emang Bisa Gratis Onkir dan Double Diskon dari Partner di ZALORA</h1>
    <p className='text-black/50 py-1'>Bisa dong! cek selengkapnya disini ya!</p>
