@@ -8,13 +8,16 @@ export const conditionSlice = createSlice({
     name: 'condition',
     initialState,
     reducers: {
-        toSticky : (state,action) => {
+        toSticky : (state) => {
             state.conditionSticky = !state.conditionSticky
+        },
+        toFixed : (state) => {
+            state.conditionSticky = state.conditionSticky
         },
         toValue : (state,action)=>{
             state.scrollPosition = action.payload.scrollPosition
         }
     },
 })
-export const { toSticky, toValue } = conditionSlice.actions
+export const { toSticky, toValue, toFixed } = conditionSlice.actions
 export default conditionSlice.reducer
