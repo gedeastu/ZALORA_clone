@@ -4,7 +4,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 const WanitaPage = () => {
   return (
    <>
-   <div className='transition-all h-full px-4 flex flex-col gap-2 mt-10'>
+   <div className='w-full transition-all h-full px-4 flex flex-col gap-2 mt-10'>
    <div id="desc" className='flex flex-col gap-1'>
    <h1 className='text-lg font-semibold w-[90%]'>Emang Bisa Gratis Onkir dan Double Diskon dari Partner di ZALORA</h1>
    <p className='text-black/50 py-1'>Bisa dong! cek selengkapnya disini ya!</p>
@@ -22,7 +22,7 @@ const WanitaPage = () => {
     // }}
     // navigation={true}
     modules={[Autoplay, Pagination, Navigation]}
-    className="w-[29rem] h-[10rem] overflow-hidden rounded-lg"
+    className="w-full h-[13rem] overflow-hidden rounded-lg"
    >
     <SwiperSlide>
       <img src="bannerPromo1.jpg" alt="" className='w-full h-full object-cover'/>
