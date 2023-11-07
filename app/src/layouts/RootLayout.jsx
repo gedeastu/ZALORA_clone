@@ -24,13 +24,16 @@ const RootLayout = () => {
   return (
    <>
    <header className={`
-   z-50 sticky top-0 transition-all duration-300
+   sticky z-10 top-0 transition-all duration-300
    `}>
    <Search/>
-   </header>
-   <nav className='sticky top-0 bg-white h-full py-2'>
+   <nav className='bg-white z-10 h-full py-2'>
    <Navbar/>
    </nav>
+   </header>
+   {/* <nav className='sticky top-40 bg-white z-10 h-full py-2'>
+   <Navbar/>
+   </nav> */}
    <main>
    <Outlet/>
    </main>
