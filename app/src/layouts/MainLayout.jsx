@@ -5,7 +5,7 @@ import BannerWanita from '../components/BannerWanita'
 const MainLayout = () => {
   return (
     <>
-    <div className='mb-96'>
+    <div className='mb-28'>
     <div className={`w-screen flex  flex-col items-center`}>
     {/* <button onClick={()=>dispatch(toSticky())}>{condition ? 'true':'false'}</button> */}
     <nav id='navbar' className={`h-[9.5rem] relative w-full`}>

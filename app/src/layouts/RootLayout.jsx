@@ -9,7 +9,7 @@ const RootLayout = () => {
   const conditionSticky = useSelector((state) => state.condition.conditionSticky)
   const dispatch = useDispatch();
   const scrollCondition = ()  => {
-    if(window.scrollY > 100){
+    if(window.scrollY > 50){
       dispatch(toFixed(true))
     }else{
       dispatch(toFixed(false))
@@ -24,7 +24,7 @@ const RootLayout = () => {
   return (
    <>
    <header className={`
-   sticky z-10 top-0 transition-all duration-300
+   sticky z-50 top-0 transition-all duration-300 ${conditionSticky ? `shadow-md`:`shadow-none`}
    `}>
    <Search/>
    <nav className='bg-white z-10 h-full py-2'>
