@@ -26,13 +26,11 @@ const RootLayout = () => {
    <header className={`
    z-50 sticky top-0 transition-all duration-300
    `}>
-   <div className='sticky top-0'>
    <Search/>
-   </div>
-   <div className='sticky top-0 bg-white h-full py-2'>
-   <Navbar/>
-   </div>
    </header>
+   <nav className='sticky top-0 bg-white h-full py-2'>
+   <Navbar/>
+   </nav>
    <main>
    <Outlet/>
    </main>
