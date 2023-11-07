@@ -11,8 +11,8 @@ export const conditionSlice = createSlice({
         toSticky : (state) => {
             state.conditionSticky = !state.conditionSticky
         },
-        toFixed : (state) => {
-            state.conditionSticky = state.conditionSticky
+        toFixed : (state,action) => {
+            state.conditionSticky = action.payload;
         },
         toValue : (state,action)=>{
             state.scrollPosition = action.payload.scrollPosition

@@ -35,7 +35,7 @@ const Navbar = () => {
             [//Pagination,
             FreeMode,Navigation]
         }
-        className='w-full h-full rounded-lg mt-3 transition-all relative z-[60] flex flex-row justify-center items-center md:w-[99vw]'
+        className='w-full h-full rounded-lg transition-all relative z-[60] flex flex-row justify-center items-center md:w-[99vw]'
         >
         {
             data?.map((link)=>{
